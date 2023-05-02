@@ -1,6 +1,6 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: John McCarthy
+// Date: April 27, 2023
 
 // Constants
 
@@ -19,3 +19,22 @@ function main() {
 
 // let's get this party started
 main();
+
+// Define Variables
+myTransport = ["skateboard", "car", "bike", "bus"];
+
+// Create an Object for My Main Ride
+myMainRide = {
+  make: "Buick",
+  model: "Enclave",
+  color: "Black",
+  year: 2014,
+  age: function() {
+    return 2022 - this.year;
+  }
+}
+
+// Output
+document.writeln("Kinds of transportation I use: ", myTransport, "</br>");
+document.writeln("My Main Ride: <pre>",
+    JSON.stringify(myMainRide, null, '\t'), "<\pre>");
