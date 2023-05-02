@@ -1,4 +1,4 @@
-// index.js - purpose and description here
+// index.js - Lab 6
 // Author: John McCarthy
 // Date: April 27, 2023
 
